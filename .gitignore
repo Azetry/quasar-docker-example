@@ -1,0 +1,29 @@
+.DS_Store
+.thumbs.db
+quasar-docker-demo/node_modules
+
+# Quasar core related directories
+quasar-docker-demo/.quasar
+quasar-docker-demo/dist
+
+# Cordova related directories and files
+quasar-docker-demo/src-cordova/node_modules
+quasar-docker-demo/src-cordova/platforms
+quasar-docker-demo/src-cordova/plugins
+quasar-docker-demo/src-cordova/www
+
+# Capacitor related directories and files
+quasar-docker-demo/src-capacitor/www
+quasar-docker-demo/src-capacitor/node_modules
+
+# Log files
+quasar-docker-demo/npm-debug.log*
+quasar-docker-demo/yarn-debug.log*
+quasar-docker-demo/yarn-error.log*
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
